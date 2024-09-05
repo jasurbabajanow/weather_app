@@ -11,6 +11,7 @@ import 'services/weather_api_services.dart';
 import 'pages/home_page.dart';
 
 void main() async {
+  // You have to create ".env" file in your project, and inside of this file must be a weather APPID. 
   await dotenv.load(fileName: '.env');
   runApp(const MyApp());
 }
